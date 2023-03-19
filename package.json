@@ -1,0 +1,30 @@
+{
+  "name": "express-sequalize-mvc",
+  "version": "1.0.0",
+  "description": "Directions: 1. Clone this template 1. run `npm install` to install dependencies 1. download drivers for preferred database 1. rename `template.env` to `.env` and change variables for your needs 1. enjoy",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.29.3",
+    "sqlite3": "^5.1.6"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node models/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Merced-Templates/express-sequelize-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-Merced-Templates/express-sequelize-template/issues"
+  },
+  "homepage": "https://github.com/Alex-Merced-Templates/express-sequelize-template#readme"
+}
